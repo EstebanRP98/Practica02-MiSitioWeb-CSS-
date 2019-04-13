@@ -1,54 +1,74 @@
  body {
-  /*  border: 2px solid black;*/
+  
     background-image: url("../imagenes/logo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #fdfbfb;
+    background-color: white;
    
 }
 
-#menuPrincipal {
-    width: 20%;
-    border-width: 1px;
-    border-color: aqua;
-    border-style: ridge;
+.menuPrincipal{
+    width: 14%;
     border-radius: 10%;
     float: left;
+    border: gray solid;
+    padding: 2px;
 
+    
+}
+
+.colorMenuP a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:gray;
 }
 
 #contenido {
-    width: 75%;
+    width: 56%;
     margin: 5px;
     padding: 5px 20px;
-    border-width: 3px ;
-    border-color: blue solid;
-    border-style: solid;
     float: left;
-    
-  
-    
-    
 }
 
 .imagen200 {
    width: 400px;
    height: 400px;
    padding: 5px 20px;
-   background-image: gray;
    
 }
-
-
-
 #cabecera {
     border-width: 2px ;
-    border-color: brown;
-    border-style: solid;
     border-radius: 2%;
 }
 footer{
     clear: both;
     text-align: center;
+
 }
+.barraMenu ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+    border-collapse: initial; 
+    border-right: 1px black solid;
+    
+
+}
+
+aside{
+    width: 18%;
+    text-align: left;
+    float: right;
+    border-radius: 3%;
+    border: gray solid ;
+    padding: 2%;
+}
+
+.tituloPrincipal{
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%
+}
+
+
 

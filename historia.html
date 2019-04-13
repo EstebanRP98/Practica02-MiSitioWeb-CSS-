@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8"/>
         <title>Real Madrid</title>
-        <link href="CSS\style.css" rel="stylesheet"/>
+        <link href="CSS/style.css" rel="stylesheet"/>
     </head>
     <body>
         <header id="cabecera"><a  href="index.html" ><img src="imagenes/logo.jpg" alt="logo"/></a>
         </header>
-            <nav id="menuPrincipal">
-                <ul>
+            <nav class="colorMenuP menuPrincipal" >
+                <ul >
                     <li><a href="champions.html">Champions League</a></li>
                     <li><a href="trofeos.html">Trofeos</a></li>
                     <li><a href="historia.html">Historia</a></li>
@@ -20,8 +20,8 @@
         
         <div id="contenido">
             <section >
-                <header>La historia del Real Madrid</header>
-                <nav>   
+                <header class=" tituloPrincipal">La Historia del Real Madrid</header>
+                <nav class="colorMenuP barraMenu">   
                         <ul>
                             <li><a href="#Fundacion">Fundacion del Real Madrid</a></li>
                             <li><a href="#CreacionEstadio">Creacion del Primer estadio</a></li>
@@ -30,7 +30,7 @@
                 </nav>    
                 <article>
                    <div style="text-align:center"> <img class="imagen200" src="imagenes/historia.jpg" alt="historia"/></div>
-                    <h1 id="Fundacion">Los primeros años</h1>
+                    <h1 id="Fundacion" class="tituloPrincipal">Los primeros años</h1>
                     <p>
                             Procedente de Inglaterra, comenzó a introducirse en España un nuevo deporte, el fútbol.<br>
                             Su gran acogida hizo que a finales del siglo XIX y comienzos del XX se crearan las primeras<br> 
@@ -42,7 +42,7 @@
                     </p> 
                 </article>
                 <article>
-                    <h1 id="CreacionEstadio">Creacion del Estadio Chamartin</h1>
+                    <h1 id="CreacionEstadio" class="tituloPrincipal">Creacion del Estadio Chamartin</h1>
                     <p>
                         <strong>1945-1950</strong><br>
                         De esta etapa surgirán los éxitos futuros de la entidad y la rivalidad con el Barcelona.<br>
@@ -54,7 +54,7 @@
                     </p>    
                 </article>
                 <article>
-                    <h1 id="Champions">Real Madrid primeros comienzos en la Champions</h1>
+                    <h1 id="Champions" class="tituloPrincipal">Real Madrid primeros comienzos en la Champions</h1>
                     <p>
                         <strong>1951-1960</strong><br>
                         Esta década fue brillante. Una pléyade de jugadores, liderada por Alfredo Di Stéfano,<br>
@@ -66,17 +66,18 @@
                 </article>
             </section>
             <section>
-                <header>El Nuevo Real Madrid
-                    <nav>   
+                <header class="tituloPrincipal">El Nuevo Real Madrid
+                    </header>
+                    <nav class=" colorMenuP  barraMenu">   
                         <ul>
                             <li><a href="#Inicios">Inicios del Bernabeu</a></li>
                             <li><a href="#Futuro">Futuro Bernabeu</a></li>
                             <li><a href="#Video">Video del Nuevo Bernabeu</a></li>
                         </ul>
                     </nav>    
-                </header>
+                
                 <article>
-                    <h1 id="Inicios">El Bernabeu en sus Inicios</h1>    
+                    <h1 id="Inicios" class="tituloPrincipal">El Bernabeu en sus Inicios</h1>    
                     <p>
                         Santiago Bernabéu no se conformó con lo conseguido con la inauguración del Nuevo Chamartín.<br>
                         De su mente seguían surgiendo nuevas ideas para mejorar el estadio y adaptarlo a la creciente<br>
@@ -92,7 +93,7 @@
                     </p>
                 </article>
                 <article>
-                    <h1 id="Futuro">Bernabeu del futuro</h1>
+                    <h1 id="Futuro" class="tituloPrincipal">Bernabeu del futuro</h1>
                     <p>
                         Esta transformación hará del Santiago Bernabéu un estadio más moderno, más confortable y seguro,<br>
                         con nuevas zonas de ocio, restauración y entretenimiento. La tecnología es uno de los pilares <br>
@@ -106,26 +107,26 @@
                     </p>
                 </article>
                 <article>
-                    <h1 id="Video">Nuevo Bernabeu a finales del 2020</h1>
+                    <h1 id="Video" class="tituloPrincipal">Nuevo Bernabeu a finales del 2020</h1>
                         <iframe  width="720" height="315"
-                        src="http://www.youtube.com/embed/UWQDSQ3qwFU?autoplay=1">
+                        src="http://www.youtube.com/embed/UWQDSQ3qwFU?">
                         </iframe>
                 </article>
-                <aside>
-                    <header>
-                            <h2>Sección femenina</h2>
-                    </header>         
-                        <h3>Real Madrid Club de Fútbol Femenino</h3>
-                        <p>Tras numerosas especulaciones con la creación de una sección femenina por parte de los medios de comunicación,<br>
-                        finalmente el club informó en 2017 que el club trabaja por crear una sección femenina de fútbol desde el<br>
-                        ciclo formativo hasta la categoría territorial de Primera de Aficionadas, punto de partida del futuro primer equipo.<br>
-                        La información, de boca del presidente, confirmó dichas suposiciones que sin embargo ligaban equivocadamente a <br>
-                        sociedades como el Club Deportivo Tacón o el Madrid Club de Fútbol Femenino como bases de una posible compra de <br>
-                        licencia federativa que diera con la fundación del equipo femenino madridista.<br>
-                        </p>
-                </aside>
             </section>
         </div>
+        <aside>
+            <header>
+                    <h2 class="tituloPrincipal">Noticias</h2>
+            </header>         
+                <h3 class="tituloPrincipal">Real Madrid Club de Fútbol Femenino</h3>
+                <p>Tras numerosas especulaciones con la creación de una sección femenina por parte de los medios de comunicación,<br>
+                finalmente el club informó en 2017 que el club trabaja por crear una sección femenina de fútbol desde el<br>
+                ciclo formativo hasta la categoría territorial de Primera de Aficionadas, punto de partida del futuro primer equipo.<br>
+                La información, de boca del presidente, confirmó dichas suposiciones que sin embargo ligaban equivocadamente a <br>
+                sociedades como el Club Deportivo Tacón o el Madrid Club de Fútbol Femenino como bases de una posible compra de <br>
+                licencia federativa que diera con la fundación del equipo femenino madridista.<br>
+                </p>
+        </aside>
         <footer>
                 <p>Universidad Politecnica Salesiana</p>
                 <p>Call:<a href="tel:+593992958177">(072)890-565</a></p>
