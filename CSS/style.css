@@ -1,10 +1,7 @@
- body {
-  
+ .fondoNormal {
     background-image: url("../imagenes/logo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: white;
-   
 }
 
 .menuPrincipal{
@@ -22,7 +19,7 @@
     color:gray;
 }
 
-#contenido {
+.contenido {
     width: 56%;
     margin: 5px;
     padding: 5px 20px;
@@ -42,7 +39,6 @@
 footer{
     clear: both;
     text-align: center;
-
 }
 .barraMenu ul li {
 	display: table-cell;
@@ -68,6 +64,31 @@ aside{
     color: gray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 150%
+}
+
+.fondoChampions{
+    background-position: 50%;
+    background-image: url("../imagenes/backgroundChampions.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#imagenCR7 {
+    width: 200px;
+    height: 500px;
+}
+
+.contenidoChampions{
+    color: white;
+}
+
+.menuChampions a{
+    color: rgb(49, 96, 226) !important;
+}
+
+.bordesChampions{
+    border: white solid !important;
 }
 
 

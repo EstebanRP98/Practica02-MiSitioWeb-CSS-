@@ -2,11 +2,12 @@
 <html>
     <head>
         <meta charset="utf-8"/>
+        <link href="../Practica02-CSS/CSS/style.css" rel="stylesheet"/>
         <title>Trofeos del Real Madrid</title>
     </head>
-    <body>
-            <header><a href="index.html" ><img src="imagenes/logo.jpg" alt="logo"/></a>
-            <nav>
+    <body class="fondoChampions">
+            <header><a href="index.html" ><img src="imagenes/logoFondo.png" alt="logo"/></a>
+            <nav class="menuChampions menuPrincipal colorMenuP bordesChampions">
                 <ul>
                     <li><a href="champions.html">Champions League</a></li>
                     <li><a href="trofeos.html">Trofeos</a></li>
@@ -16,39 +17,41 @@
                 </ul>
             </nav>
         </header>
-        <section>
-                <article>
-                    <h1>Los Equipos mas ganadores de Europa</h1>
-                    <img src="imagenes/fondoChampions.jpeg" alt="Champions Fondo"/>
-                    <p>
-                            La Liga de Campeones de la UEFA, originariamente conocida como Copa de Europa,<br>
-                            es una competición continental de clubes organizada por la Unión de Asociaciones <br>
-                            Europeas de Fútbol, considerada la más prestigiosa del continente europeo.<br>
-                    </p>
-                    <p>
-                       <strong>El Real Madrid es el vigente campeón y el club más laureado de la competición con <br>
-                            trece títulos.El ganador de esta competición, disputa la Supercopa de Europa ante <br>
-                            el vencedor de la Liga Europa y, como representante de la confederación, <br>
-                            la Copa Mundial de Clubes de la FIFA.
-                        </strong>
-                    </p>
-                    <h2>Los equipos mas laureados son:</h2>
-                    <ol>
-                        <li>Real Madrid: Tiene 13 champions league es el Equipo mas premiado en este campeonato</li>
-                        <li>AC Milan: 7 veces campeon y tiene 4 subcampeonatos</li>
-                        <li>Bayern Munich: 5 veces campeon pero quedo 5 veces en el segundo puesto</li>
-                        <li>Barcelona: 5 veces campeon llego 8 veces a la final 3 perdio</li>
-                        <li>Liverpool: 5 veces campeon y perdio 3 finales</li>
-                    </ol>
-                </article>
-                <aside>
-                    <h3>El goleador de la champions League</h3>
-                    <img src="imagenes/CR7.jpg" alt="CR7"/>
-                    <p>Cristiano Ronaldo tiene 125 goles en esta <br>
-                     competencia que es su favorita</p>
-                </aside>
-        </section>
-        <footer>
+        <div class="contenido contenidoChampions">
+            <section>
+                    <article>
+                        <h1>Los Equipos mas ganadores de Europa</h1>
+                        <img src="imagenes/fondoChampions.jpeg" alt="Champions Fondo"/>
+                        <p>
+                                La Liga de Campeones de la UEFA, originariamente conocida como Copa de Europa,<br>
+                                es una competición continental de clubes organizada por la Unión de Asociaciones <br>
+                                Europeas de Fútbol, considerada la más prestigiosa del continente europeo.<br>
+                        </p>
+                        <p>
+                        <strong>El Real Madrid es el vigente campeón y el club más laureado de la competición con <br>
+                                trece títulos.El ganador de esta competición, disputa la Supercopa de Europa ante <br>
+                                el vencedor de la Liga Europa y, como representante de la confederación, <br>
+                                la Copa Mundial de Clubes de la FIFA.
+                            </strong>
+                        </p>
+                        <h2>Los equipos mas laureados son:</h2>
+                        <ol>
+                            <li>Real Madrid: Tiene 13 champions league es el Equipo mas premiado en este campeonato</li>
+                            <li>AC Milan: 7 veces campeon y tiene 4 subcampeonatos</li>
+                            <li>Bayern Munich: 5 veces campeon pero quedo 5 veces en el segundo puesto</li>
+                            <li>Barcelona: 5 veces campeon llego 8 veces a la final 3 perdio</li>
+                            <li>Liverpool: 5 veces campeon y perdio 3 finales</li>
+                        </ol>
+                    </article>
+            </section>
+        </div>
+        <aside class="contenidoChampions bordesChampions">
+                <h3>El goleador de la champions League</h3>
+                <img id="imagenCR7" src="imagenes/CR7.jpg" alt="CR7"/>
+                <p>Cristiano Ronaldo tiene 125 goles en esta <br>
+                competencia que es su favorita</p>
+        </aside>
+        <footer class="contenidoChampions">
                 <p>Universidad Politecnica Salesiana</p>
                 <p>Call:<a href="tel:+593992958177">(072)890-565</a></p>
                 <p>Email:<a href="mailto:realmadrid@gmail.com">realmadrid@gmail</a></p>
