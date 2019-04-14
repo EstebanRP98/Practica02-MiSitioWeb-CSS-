@@ -4,29 +4,21 @@
     background-attachment: fixed;
 }
 
-
-
 .colorMenuP a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:gray;
 }
 
-
-
 .imagen200 {
    width: 400px;
    height: 400px;
-   padding: 5px 20px;
-   
+   padding: 5px 20px;   
 }
 #cabecera {
     border-width: 2px ;
     border-radius: 2%;
 }
-footer{
-    clear: both;
-    text-align: center;
-}
+
 .barraMenu ul li {
 	display: table-cell;
 	width: 15%;
@@ -34,17 +26,6 @@ footer{
 	margin-right: 2%;
     border-collapse: initial; 
     border-right: 1px black solid;
-    
-
-}
-
-.asideDerecha{
-    width: 18%;
-    text-align: left;
-    float: right;
-    border-radius: 3%;
-    border: gray solid ;
-    padding: 2%;
 }
 
 .tituloPrincipal{
@@ -58,7 +39,6 @@ footer{
     background-image: url("../imagenes/backgroundChampions.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 #imagenCR7 {
@@ -66,49 +46,12 @@ footer{
     height: 500px;
 }
 
-.contenidoChampions{
-    color: white;
-}
 
-.menuChampions a{
-    color: rgb(49, 96, 226) !important;
-}
-
-.bordesChampions{
-    border: white solid !important;
-}
-
-.menuTrofeos{
-    width: 20%;
-    border-radius: 10%;
-    padding: 2px;
-    border: gold solid;
-    position: fixed;
-    top: 20%;
-    right: 0%;
-
-}
 
 .colorMenuT a{
     color: gold;
 }
 
-#asideTrofeos{
-    width: 90%;
-    text-align: center;
-    border-radius: 3%;
-    border: gray solid ;
-    padding: 2%;
-}
-
-#contenidoTrofeos{
-    width: 75%;
-    margin: 5px;
-    padding: 5px 20px;
-    float: left;
-    text-align: center;
-    color: gold;
-}
 
 .fondoTrofeos{
     background-image: url(../imagenes/fondoTrofeos.jpg);
@@ -267,54 +210,13 @@ td {
     display: none;
 }
 
-.asideNormal {
-    width: 80%;
-    height: 10%;
-    text-align: center;
-    border-radius: 3%;
-    border: gray solid ;
-    padding: 2%; 
-}
 
-.contenidoPlantilla{
-    width: 80%;
-    margin: 5px;
-    padding: 5px 20px;
-    float: left;
-}
 
 .imagenPlantillas:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
 }
 /*25*/
-#contenidoIndex{
-    width: 80%;
-    position: relative;
-    left: 14%;
-    margin: 5px;
-    padding: 5px 20px;
-    float: left;
-    color: rgb(92, 91, 91);
-}
 
-#asideIndex{
-    position: fixed;
-    top: 54%;
-    left: 73%;
-    text-align: center;
-    border-radius: 3%;
-    border: gray solid ;
-    padding: 2%; 
-}
-
-.menuIndex{
-    width: 14%;
-    border-radius: 10%;
-    position: fixed;
-    border: gray solid;
-    padding: 2px;
-    float: left;
-}
 
 #imagenNoticias:hover {
     filter: blur(5px);

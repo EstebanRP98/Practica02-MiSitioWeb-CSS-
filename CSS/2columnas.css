@@ -1,0 +1,87 @@
+footer{
+    clear: both;
+    text-align: center;
+}
+#contenidoTrofeos{
+    width: 75%;
+    margin: 5px;
+    padding: 5px 20px;
+    float: left;
+    text-align: center;
+    color: gold;
+}
+
+#asideTrofeos{
+    width: 90%;
+    text-align: center;
+    border-radius: 3%;
+    border: gray solid ;
+    padding: 2%;
+}
+
+.contenidoChampions{
+    color: white;
+}
+
+.menuChampions a{
+    color: rgb(49, 96, 226) !important;
+}
+
+.bordesChampions{
+    border: white solid !important;
+}
+
+.menuTrofeos{
+    width: 20%;
+    border-radius: 10%;
+    padding: 2px;
+    border: gold solid;
+    position: fixed;
+    top: 20%;
+    right: 0%;
+
+}
+.asideNormal {
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    border-radius: 3%;
+    border: gray solid ;
+    padding: 2%; 
+}
+
+.contenidoPlantilla{
+    width: 80%;
+    margin: 5px;
+    padding: 5px 20px;
+    float: left;
+}
+
+#contenidoIndex{
+    width: 80%;
+    position: relative;
+    left: 14%;
+    margin: 5px;
+    padding: 5px 20px;
+    float: left;
+    color: rgb(92, 91, 91);
+}
+
+#asideIndex{
+    position: fixed;
+    top: 54%;
+    left: 73%;
+    text-align: center;
+    border-radius: 3%;
+    border: gray solid ;
+    padding: 2%; 
+}
+
+.menuIndex{
+    width: 14%;
+    border-radius: 10%;
+    position: fixed;
+    border: gray solid;
+    padding: 2px;
+    float: left;
+}
