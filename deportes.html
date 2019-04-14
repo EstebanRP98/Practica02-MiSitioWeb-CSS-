@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8"/>
         <title>Trofeos del Real Madrid</title>
+        <link href="../Practica02-CSS/CSS/style.css" rel="stylesheet"/>
     </head>
-    <body>
+    <body class="fondoNormal">
         <header><a href="index.html" ><img src="imagenes/logo.jpg" alt="logo"/></a>
-            <nav>
+            <nav class="menuPrincipal colorMenuP">
                 <ul>
                     <li><a href="champions.html">Champions League</a></li>
                     <li><a href="trofeos.html">Trofeos</a></li>
@@ -16,6 +17,7 @@
                 </ul>
             </nav>
         </header>
+        <div class="contenido">
             <section>
                 <article>
                     <h1>Real Madrid Club de Futbol</h1>
@@ -31,7 +33,11 @@
                 </article>
                 <article>
                     <h2>Real Madrid Baloncesto</h2>
-                        <img src="imagenes/BasketballPlantilla.jpg" alt="BasketballPlantilla"/>
+                        <input id="mostrar-modal" name="modal" type="radio" /> 
+                        <label for="mostrar-modal"> VER PLANTILLA </label>
+                       <div id="modal"><img src="imagenes/BasketballPlantilla.jpg" alt="BasketballPlantilla"/></div>
+                       <input id="cerrar-modal" name="modal" type="radio" /> 
+                        <label for="cerrar-modal"> X </label> 
                         <ul>
                             <li> <strong>Entrenador:</strong> Pablo Laso <br></li>
                             <li> <strong>Entrenador Ayudante:</strong>Chus Mateo y Paco Redondo<br></li>
@@ -41,7 +47,9 @@
                             <li> <strong>Medico:</strong>Miguel Ángel López Andrades y Javier Barrios.<br></li>
                         </ul>    
                 </article>
-                <aside>
+            </div>
+            </section>
+            <aside class="asideDerecha">
                     <header>
                             <h1>Directiva</h1>
                     </header>
@@ -55,7 +63,6 @@
                         <li> <strong>Dirección Cantera:</strong> Alberto Angulo<br></li>
                     </ul>
                 </aside>
-            </section>
             <footer>
                     <p>Universidad Politecnica Salesiana</p>
                     <p>Call:<a href="tel:+593992958177">(072)890-565</a></p>

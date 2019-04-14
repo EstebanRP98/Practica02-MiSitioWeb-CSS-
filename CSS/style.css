@@ -145,3 +145,74 @@ th, td{
 td {
     border-bottom: gray solid;
 }
+
+#modal {
+    background: rgba(61, 60, 60, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 70vh;
+    width: 100vw;
+    transition: all .5s;
+}
+
+#modal img{
+    width: 60%;
+    height: 85%;
+    position: relative;
+    top: 7%;
+    left: 20%;
+}
+
+#mostrar-modal {
+    display: none;
+}
+
+#mostrar-modal + label {
+    background:gray;
+    display: table;
+    margin: 5% 25%;
+    color: #fff;
+    line-height: 3;
+    padding: 0 1em;
+    cursor: alias;
+}
+#mostrar-modal + label:hover {
+    background: #38678f;
+}
+
+#mostrar-modal:checked ~ #modal{
+    top: 20%;
+  }
+
+#cerrar-modal {
+    display: none;
+}
+
+#cerrar-modal + label {
+    position: fixed;
+    top: 25%;
+    right: 1em;
+    bottom: 40%;
+    color: #fff;
+    background: black;
+    width: 25px;
+    height: 25px;
+    line-height: 150%;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+#cerrar-modal:checked ~ #modal {
+    top: -100vh;
+}
+
+
+#mostrar-modal:checked ~ #cerrar-modal + label {
+    display: block;
+}
+#cerrar-modal:checked + label {
+    display: none;
+}
