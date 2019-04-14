@@ -2,68 +2,73 @@
 <html>
     <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../Practica02-CSS/CSS/style.css"/>
         <title>Trofeos del Real Madrid</title>
     </head>
-    <body>
-        <header><a href="index.html"> <img src="imagenes/logo.jpg" alt="logo"/></a>
-            <nav>
-                <ul>
-                    <li><a href="champions.html">Champions League</a></li>
-                    <li><a href="trofeos.html">Trofeos</a></li>
-                    <li><a href="historia.html">Historia</a></li>
-                    <li><a href="deportes.html">Deportes</a></li>
-                    <li><a href="jugadores.html">Jugadores</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-           <img src="imagenes/champions.jpg" alt="champions1"/> 
-           <h1>Real Madrid un Equipo ganador</h1>
-           <article>
-               <h2>Trofeos Principales del Real Madrid</h2>
-            <table>
-                <caption>Trofeos Ganados</caption>
-                    <tr>
-                    <th>tabla avanzada</th><th colspan="2">Cabecera Multiples Columnas</th>
-                    </tr>
-                    <tr>
-                    <th>cantidad</th><th>foto</th><th>trofeo</th>
-                    </tr>
-                   <tr>
-                        <td>1</td> <td><img src="imagenes/mejorClub.jpg" alt="mejorClub"></td><td>El premio al mejor club del mundo</td>
-                   </tr>
-                   <tr>
-                        <td>13</td> <td><img src="imagenes/championsIndividual.jpg" alt="championsIndividual"></td><td>Champions League</td>
-                   </tr>
-                   <tr>
-                        <td>7</td> <td><img src="imagenes/MundialClubes.jpg" alt="MundialClubes"></td><td>Mundial de Clubes</td>
-                   </tr>
-                   <tr>
-                        <td>4</td> <td><img src="imagenes/SuperCopas.jpg" alt="SuperCopas"></td><td>Super Copa</td>
-                   </tr>
-                   <tr>
-                        <td>33</td> <td><img src="imagenes/Ligas.jpg" alt="Ligas"></td><td>Ligas</td>
-                   </tr>    
-                   <tr>
-                        <td>19</td> <td><img src="imagenes/CopaRey.jpg" alt="CopaRey"></td><td>Copa del Rey</td>
-                   </tr>        
-                   <tr>
-                        <td>actualizado el 01/01/2019</td>
-                   </tr>                
-              </table>
-           </article>
-           <aside>
-                <h2>Acuerdos de asociación</h2>
-                <p>A lo largo de su historia el club ha mantenido diversos acuerdos con otros clubes para favorecer el crecimiento<br>
-                institucional. El más significativo es el mantenido con la Agrupación Deportiva Plus Ultra bajo la premisa de club<br>
-                filial. De igual modo, varios clubes de formación o amateurs de la Comunidad de Madrid y de España <br>
-                mantienen similares acuerdos de colaboración o convenios, donde hay unas ayudas deportivas y económicas recíprocas.​<br>
-                
-                En la actualidad reciente los madrileños firmaron también acuerdos con clubes extranjeros como el Tottenham Hotspur<br>
-                Football Club, en el año 2012, que favoreció las relaciones deportivas y comerciales entre ambas entidades.<br>
-                </p>
-           </aside>
-        </section>
+    <body class="fondoTrofeos">
+               <header><a href="index.html"> <img src="imagenes/logoFondo.png" alt="logo"/></a>
+                    <nav class="menuTrofeos colorMenuT">
+                         <ul>
+                              <li><a href="champions.html">Champions League</a></li>
+                              <li><a href="trofeos.html">Trofeos</a></li>
+                              <li><a href="historia.html">Historia</a></li>
+                              <li><a href="deportes.html">Deportes</a></li>
+                              <li><a href="jugadores.html">Jugadores</a></li>
+                         </ul>
+                    </nav>
+               </header>
+          <div id="contenidoTrofeos">
+               <section>
+                    <img src="imagenes/champions.jpg" alt="champions1"/> 
+                    <h1>Real Madrid un Equipo ganador</h1>
+               <article>
+                         <h2>Trofeos Principales del Real Madrid</h2>
+                    <table>
+                         <caption>Trofeos Ganados</caption>
+                              <tr>
+                              <th>tabla avanzada</th><th colspan="2">Cabecera Multiples Columnas</th>
+                              </tr>
+                              <tr>
+                              <th>cantidad</th><th>foto</th><th>trofeo</th>
+                              </tr>
+                         <tr>
+                              <td>1</td> <td><img src="imagenes/mejorClub.jpg" alt="mejorClub"></td><td>El premio al mejor club del mundo</td>
+                         </tr>
+                         <tr>
+                              <td>13</td> <td><img src="imagenes/championsIndividual.jpg" alt="championsIndividual"></td><td>Champions League</td>
+                         </tr>
+                         <tr>
+                              <td>7</td> <td><img src="imagenes/MundialClubes.jpg" alt="MundialClubes"></td><td>Mundial de Clubes</td>
+                         </tr>
+                         <tr>
+                              <td>4</td> <td><img src="imagenes/SuperCopas.jpg" alt="SuperCopas"></td><td>Super Copa</td>
+                         </tr>
+                         <tr>
+                              <td>33</td> <td><img src="imagenes/Ligas.jpg" alt="Ligas"></td><td>Ligas</td>
+                         </tr>    
+                         <tr>
+                              <td>19</td> <td><img src="imagenes/CopaRey.jpg" alt="CopaRey"></td><td>Copa del Rey</td>
+                         </tr>        
+                         <tr>
+                              <td>actualizado el 01/01/2019</td>
+                         </tr>                
+                    </table>
+               </article>
+               </section>
+               <aside id="asideTrofeos">
+                         <h2>Acuerdos de asociación</h2>
+                         <p>A lo largo de su historia el club ha mantenido diversos acuerdos con otros clubes para favorecer el crecimiento<br>
+                         institucional. El más significativo es el mantenido con la Agrupación Deportiva Plus Ultra bajo la premisa de club<br>
+                         filial. De igual modo, varios clubes de formación o amateurs de la Comunidad de Madrid y de España <br>
+                         mantienen similares acuerdos de colaboración o convenios, donde hay unas ayudas deportivas y económicas recíprocas.​<br>
+                         
+                         En la actualidad reciente los madrileños firmaron también acuerdos con clubes extranjeros como el Tottenham Hotspur<br>
+                         Football Club, en el año 2012, que favoreció las relaciones deportivas y comerciales entre ambas entidades.<br>
+                         </p>
+                    </aside>
+          </div>
+        
+          
         <footer>
                 <p>Universidad Politecnica Salesiana</p>
                 <p>Call:<a href="tel:+593992958177">(072)890-565</a></p>
