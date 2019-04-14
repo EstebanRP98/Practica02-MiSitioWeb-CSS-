@@ -4,25 +4,14 @@
     background-attachment: fixed;
 }
 
-.menuPrincipal{
-    width: 14%;
-    border-radius: 10%;
-    float: left;
-    border: gray solid;
-    padding: 2px;
-}
+
 
 .colorMenuP a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:gray;
 }
 
-.contenido {
-    width: 56%;
-    margin: 5px;
-    padding: 5px 20px;
-    float: left;
-}
+
 
 .imagen200 {
    width: 400px;
