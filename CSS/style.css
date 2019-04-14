@@ -232,4 +232,8 @@ td {
     margin: 1em 0;
 }
 
+nav li:first-line {
+    text-transform: uppercase;
+}
+
 
